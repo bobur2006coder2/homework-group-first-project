@@ -9,11 +9,11 @@ export default function MapPage() {
             load: 'Map,Placemark,control.ZoomControl,control.FullscreenControl,geoObject.addon.balloon'
           }}>
               <Map width={1290} height={380} defaultState={{
-              center: [55.75, 37.57],
+              center: [40.845891, 69.607110],
               zoom: 9,
               controls: ['zoomControl', 'fullscreenControl']
             }}>
-                <Placemark defaultGeometry={[55.75, 37.57]} properties={{
+                <Placemark defaultGeometry={[40.845891, 69.607110]} properties={{
                 balloonContentBody: 'This is balloon loaded by the Yandex.Maps API module system'
               }} />
               </Map>

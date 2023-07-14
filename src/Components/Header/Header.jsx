@@ -19,7 +19,7 @@ export default function Header() {
                     </div>
                     <div className="flex justify-between mt-10">
                     <input type="email" placeholder='+7 982 993 90 05' className='w-180px h-60px rounded-lg p-5 outline-none text-black' />
-                    <input type="text" placeholder='Время работы: пн- пт с 10:00 - 19:00' value={"Время работы: пн- пт с 10:00 - 19:00"} className='w-500px h-60px p-5 rounded-lg outline-none text-white bg-blue-500' />
+                    <input type="text" placeholder='Время работы: пн- пт с 10:00 - 19:00' defaultValue={"Время работы: пн- пт с 10:00 - 19:00"} className='w-500px h-60px p-5 rounded-lg outline-none text-white bg-blue-500' />
                     <button  className='w-250px h-60px rounded-lg p-2 gap-3 outline-none text-black bg-white flex items-center'> Социальные сети <img src={oneImgNav} alt="" /> <img src={twoImgNav} alt="" /> <img src={threeImgNav} alt="" /></button>
 
                     </div>

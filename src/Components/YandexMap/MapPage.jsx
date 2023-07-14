@@ -14,7 +14,7 @@ export default function MapPage() {
               controls: ['zoomControl', 'fullscreenControl']
             }}>
                 <Placemark defaultGeometry={[40.845891, 69.607110]} properties={{
-                balloonContentBody: 'This is balloon loaded by the Yandex.Maps API module system'
+                balloonContentBody: 'https://api-maps.yandex.ru/<version number>/?apikey=Your API key&lang=<language ID>&<additional parameters>'
               }} />
               </Map>
             </YMaps>

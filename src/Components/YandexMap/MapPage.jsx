@@ -1,5 +1,6 @@
 import React from 'react'
 import { Map, Placemark, YMaps } from 'react-yandex-map'
+
 export default function MapPage() {
     return (
     <div className="max-w-screen-xl mx-auto">
@@ -14,7 +15,7 @@ export default function MapPage() {
               controls: ['zoomControl', 'fullscreenControl']
             }}>
                 <Placemark defaultGeometry={[40.845891, 69.607110]} properties={{
-                balloonContentBody: 'https://api-maps.yandex.ru/<version number>/?apikey=Your API key&lang=<language ID>&<additional parameters>'
+                balloonContentBody: 'This is balloon loaded by the Yandex.Maps API module system'
               }} />
               </Map>
             </YMaps>
